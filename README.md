@@ -27,6 +27,7 @@ Database Setup:
 **Create the database**
 
 Create the following tables
+
 **User Table**
 CREATE TABLE user (
     userId INT AUTO_INCREMENT PRIMARY KEY,
