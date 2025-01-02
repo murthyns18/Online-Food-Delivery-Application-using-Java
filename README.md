@@ -1,9 +1,13 @@
 # Online-Food-Delivery-Application-using-Java
 
 Project: Food Delivery Application
+
 Technologies Used:
+
 Front-End: HTML, CSS,JSP
+
 Back-End: Java, JDBC, JSP, Servlets
+
 Database: MySQ
 
 **Project Overview** 
