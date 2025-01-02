@@ -135,11 +135,11 @@ Select Tomcat and finish.
 
 **Check the Site**
 
-Visit http://localhost:8080/food-delivery-app/ 
+Visit http://localhost:8080/FoodApplication/
 
 If u face any problem like port is in already use then 
 
 Change the Port
 Open the Server tab > Double-click on Tomcat Server > Go to Ports.
 Change the HTTP/1.1 port to 8083.
-Save and start the server. Visit http://localhost:8083/food-delivery-app/.
+Save and start the server. Visit http://localhost:8080/FoodApplication/
