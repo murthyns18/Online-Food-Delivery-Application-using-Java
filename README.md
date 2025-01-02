@@ -1,8 +1,8 @@
 # Online-Food-Delivery-Application-using-Java
 
-Project: Food Delivery Application
+**Project: Food Delivery Application**
 
-Technologies Used:
+**Technologies Used**
 
 Front-End: HTML, CSS,JSP
 
