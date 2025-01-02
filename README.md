@@ -145,6 +145,9 @@ Change the HTTP/1.1 port to 8083.
 Save and start the server. Visit http://localhost:8080/FoodApplication/
 
 **Screenshots**
+**1: Home Page**
+![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/a52f78972d96d050b15c9bd86da29ebb26980cbd/Index.png)
+
 
 
 
