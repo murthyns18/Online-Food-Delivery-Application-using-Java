@@ -150,31 +150,38 @@ Save and start the server. Visit http://localhost:8080/FoodApplication/
 
 ![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/a52f78972d96d050b15c9bd86da29ebb26980cbd/Index.png)
 
+
 **2 : Registration Page**
 
 ![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/dbda31c67ddeabd8fe1da2dc6c5b2c37cd32300d/Register.png)
 
+
 **3 : Login Page**
 
-![image alt]()
+![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/e9f88c3a320a5600cf8f120092532aa72220ab5c/Login.png)
+
 
 **4 : Home Page**
 
-![image alt]()
+![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/e9f88c3a320a5600cf8f120092532aa72220ab5c/Home.png)
+
 
 **5 : Menus Page**
 
-![image alt]()
+![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/e9f88c3a320a5600cf8f120092532aa72220ab5c/Menus.png)
+
 
 **6 : Cart Page**
 
-![image alt]()
+![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/e9f88c3a320a5600cf8f120092532aa72220ab5c/Cart.png)
+
 
 **7 : Checkout Page**
 
-![image alt]()
+![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/e9f88c3a320a5600cf8f120092532aa72220ab5c/Checkout.png)
+
 
 **7 : Order Confirmation Page**
 
-![image alt]()
+![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/e9f88c3a320a5600cf8f120092532aa72220ab5c/OrderConfirm.png)
 
