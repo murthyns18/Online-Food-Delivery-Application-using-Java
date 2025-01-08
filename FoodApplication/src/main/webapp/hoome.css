@@ -6,195 +6,182 @@
 }
 
 body {
-    background-color: #f8f9fa; 
+    background-color: #f8f9fa;
     color: #333;
     line-height: 1.6;
-    padding: 2rem;
 }
 
-body > h1 {
-    text-align: center;
+/* Navigation Bar */
+.navbar {
+    background: white;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-bottom: 2rem;
-    color: #2d3748;
-    font-size: 2.5rem;
+}
+
+.site-title {
+    font-size: 1.5rem;
     font-weight: 700;
     background: linear-gradient(120deg, #4a90e2, #67b26f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding: 1rem;
 }
 
-header {
-    text-align: center;
-    margin-bottom: 3rem;
+.welcome-text {
+    font-size: 1.1rem;
+    color: #4a5568;
 }
 
-.main-title {
-    font-size: 2.5rem;
-    background: linear-gradient(120deg, #3b82f6, #10b981);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin-bottom: 1rem;
-    font-weight: 700;
+/* Search Container */
+.search-container {
+    background: white;
+    margin: 0 auto 2rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    max-width: 1200px;
 }
 
-.card-container {
+.search-filters {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    max-width: 1400px;
-    margin: 0 auto;
-    background: #a3e4d7; 
-    padding: 2rem;
-    border-radius: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
 }
 
-.card {
-    background: #f0f4f8; 
-    border-radius: 1rem;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+.search-group, .filter-group {
     position: relative;
 }
 
+.search-input, .filter-select {
+    width: 100%;
+    padding: 0.5rem 1rem 0.5rem 2rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+    font-size: 0.9rem;
+}
+
+.search-icon, .rating-icon, .time-icon {
+    position: absolute;
+    left: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 0.9rem;
+}
+
+/* Card Container */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+/* Card Styles */
+.card {
+    background: white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
 .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
 .restaurant-image {
     width: 100%;
-    height: 200px;
+    height: 150px;
     object-fit: cover;
 }
 
 .card-content {
-    padding: 1.5rem;
-    text-align: center;
+    padding: 1rem;
 }
 
 .card-title {
-    font-size: 1.75rem;
-    font-weight: 700;
-    margin-bottom: 0.75rem;
-    background: linear-gradient(135deg, #2c5282, #2b6cb0);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    letter-spacing: -0.5px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    color: #2d3748;
 }
 
 .card-subtitle {
-    color: #4a5568;
-    font-size: 1.1rem;
-    margin-bottom: 1rem;
-    font-weight: 600;
+    color: #718096;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
 }
 
-.card-content p {
-    margin-bottom: 0.75rem;
-    color: #4a5568;
-    font-size: 1.1rem;
+.restaurant-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0;
 }
 
-.card-content p:has(strong:contains("Ratings")) {
-    color: #10b981;
-    font-size: 1.2rem;
-    font-weight: 600;
+.delivery-time, .ratings {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.9rem;
+}
+
+.ratings {
     background: #d1fae5;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    margin: 1rem 0;
-    display: inline-block;
+    color: #10b981;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
 }
 
-.card-content p strong:contains("Delivery Time:") {
-    color: #8b5cf6;
-}
-
-.card-content p strong:contains("Address:") {
-    color: #3b82f6;
-}
-
-.status.inactive {
-    display: inline-block;
-    padding: 0.25rem 0.75rem;
-    border-radius: 1rem;
-    font-size: 0.875rem;
-    font-weight: 500;
-    margin: 1rem 0;
-    background-color: #fed7d7;
-    color: #9b2c2c;
+.address {
+    font-size: 0.9rem;
+    color: #4a5568;
+    margin: 0.5rem 0;
 }
 
 .view-menu-link {
     display: block;
-    width: fit-content;
-    margin: 1.5rem auto 0;
+    text-align: center;
     background: linear-gradient(120deg, #4a90e2, #67b26f);
     color: white;
-    padding: 0.75rem 2rem;
-    border-radius: 0.5rem;
     text-decoration: none;
-    font-weight: 500;
-    transition: all 0.3s ease;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    transition: opacity 0.2s;
 }
 
 .view-menu-link:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(74, 144, 226, 0.3);
+    opacity: 0.9;
 }
 
 .no-restaurants {
     text-align: center;
     color: #718096;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     padding: 2rem;
-    background: white;
-    border-radius: 1rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    max-width: 600px;
-    margin: 2rem auto;
+    grid-column: 1 / -1;
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
-    body {
-        padding: 1rem;
+    .search-filters {
+        grid-template-columns: 1fr;
     }
     
     .card-container {
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        padding: 1rem;
         gap: 1rem;
     }
     
-    body > h1 {
-        font-size: 2rem;
-    }
-    
-    .main-title {
-        font-size: 1.75rem;
-    }
-    
-    .card-title {
-        font-size: 1.5rem;
+    .navbar {
+        padding: 1rem;
     }
 }
-.ratings {
-    color: #10b981; 
-    font-size: 1.2rem;
-    font-weight: 600;
-    background: #d1fae5;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    margin: 1rem 0;
-    display: inline-block;
-}
-
-.ratings strong {
-    color: #10b981;
-}
-
-.ratings span {
-    color: #10b981;
-}
-
