@@ -148,7 +148,7 @@ Save and start the server. Visit http://localhost:8080/FoodApplication/
 
 **1 : Index Page**
 
-![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/a52f78972d96d050b15c9bd86da29ebb26980cbd/Index.png)
+![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/a793efbbac423d724ae0b7b5f8c11edf5bfade35/index.png)
 
 
 **2 : Registration Page**
