@@ -148,7 +148,7 @@ Save and start the server. Visit http://localhost:8080/FoodApplication/
 
 **1 : Index Page**
 
-![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/8ba1711cde59306bf52898350860ed059e202f0f/login_food.png)
+![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/a793efbbac423d724ae0b7b5f8c11edf5bfade35/index.png)
 
 
 **2 : Registration Page**
@@ -158,7 +158,7 @@ Save and start the server. Visit http://localhost:8080/FoodApplication/
 
 **3 : Login Page**
 
-![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/e9f88c3a320a5600cf8f120092532aa72220ab5c/Login.png)
+![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/8ba1711cde59306bf52898350860ed059e202f0f/login_food.png)
 
 
 **4 : Home Page**
