@@ -17,13 +17,14 @@ body {
 }
 
 .checkout-container {
-    background-color: #a3e4d7;
+    background-color: #ffffff;
     padding: 2rem;
     border-radius: 1rem;
     max-width: 500px;
     margin: 0 auto;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #d1d1d1;
 }
 
 .checkout-container h2 {
@@ -53,7 +54,7 @@ textarea, select {
 }
 
 textarea:focus, select:focus {
-    border-color: #10b981; 
+    border-color: #10b981;
     outline: none;
 }
 
