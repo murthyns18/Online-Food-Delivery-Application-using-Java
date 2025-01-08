@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Cart</title>
-    <link rel="stylesheet" href="cartcss.css">
+    <link rel="stylesheet" href="cart.css">
 </head>
 <body>
     <div class="cart-container">
@@ -75,3 +75,4 @@
     </div>
 </body>
 </html>
+
