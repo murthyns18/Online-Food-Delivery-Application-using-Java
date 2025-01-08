@@ -4,7 +4,7 @@
 
 **Technologies Used**
 
-Front-End: HTML, CSS,JSP
+Front-End: Html, CSS, Javascript
 
 Back-End: Java, JDBC, JSP, Servlets
 
