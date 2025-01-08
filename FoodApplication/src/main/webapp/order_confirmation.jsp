@@ -13,7 +13,8 @@
     <div class="bike-container"></div>
 
     <div class="confirmation-container">
-        <h1>Order Placed Successfully</h1>
+        <h1>Your order has been placed successfully</h1>
+        <img src="right.png" alt="Success" style="width: 100px; margin-bottom: 15px;" />
         <%
             Orders order = (Orders) session.getAttribute("order");
 
@@ -21,22 +22,16 @@
             {
         %>
         <div class="order-details">
-            <h2>Thank you for your order!</h2>
             <p>Order ID: <strong><%= order.getOrdersId() %></strong></p>
-            <p>Restaurant ID: <strong><%= order.getRestaurantId() %></strong></p>
-            <p>Total Amount: <strong>₹<%= order.getTotalAmount() %></strong></p>
-            <p>Payment Mode: <strong><%= order.getPaymentMode() %></strong></p>
-            <p>Status: <strong><%= order.getStatus() %></strong></p>
+            <p>Total Amount Paid: <strong>₹<%= order.getTotalAmount() %></strong></p>
         </div>
         <div class="next-steps">
-            <p class="msg">You will receive a order shortly.</p>
             <a href="Home.jsp" class="btn">Return to Home</a>
         </div>
         <% } else { %>
         <div class="error-message">
             <h2>Something went wrong!</h2>
             <p>We couldn't retrieve your order details. Please contact support.</p>
-            <a href="Home.jsp" class="btn">Return to Home</a>
         </div>
         <% } %>
     </div>
