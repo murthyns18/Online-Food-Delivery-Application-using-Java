@@ -178,7 +178,7 @@ Save and start the server. Visit http://localhost:8080/FoodApplication/
 
 **7 : Checkout Page**
 
-![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/c0207362e0e30c8bda5205b9aebfd759f7c5f486/checkout.png))
+![image alt](https://github.com/murthyns18/Online-Food-Delivery-Application-using-Java/blob/c0207362e0e30c8bda5205b9aebfd759f7c5f486/checkout.png)
 
 
 **7 : Order Confirmation Page**
